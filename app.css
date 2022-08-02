@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#react-component{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#react-component button {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field input {
+    padding: 0.5rem;
+}
+
+form button[type="submit"] {
+    background: linear-gradient(to left, #4776E6, #8e54e9);
+    color: white;
+    border-radius: 4px;
+    
+    padding: 0.4rem;
+}
+
